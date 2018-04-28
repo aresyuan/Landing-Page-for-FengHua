@@ -51,7 +51,7 @@ module.exports = {
             loader: 'url-loader',
             options: {
               limit: 8192,
-              name: 'static/img/[name].[ext]?[hash:7]',
+              name: 'public/[name].[ext]?[hash:7]',
             },
           },
           {
@@ -89,13 +89,13 @@ module.exports = {
     }),
     new CopyWebpackPlugin([
       {
-        from: './src/assets',
-        to: 'src/assets',
+        from: './public',
+        to: 'public',
       },
     ]),
     new HtmlWebPackPlugin({
       template: 'index.html',
-      favicon: './src/assets/logo-shortcut.png',
+      favicon: './public/logo-shortcut.png',
       minify: !DEV_MODE && {
         collapseWhitespace: true,
         preserveLineBreaks: true,
