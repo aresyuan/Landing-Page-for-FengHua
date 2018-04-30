@@ -1,6 +1,7 @@
 body {
   overflow-x: hidden;
-  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial,
+    'Microsoft Yahei', 'Microsoft JhengHei', monospace, sans-serif;
 }
 
 p {
@@ -695,4 +696,18 @@ ul.social-buttons li a:hover {
 .carousel-control-next-icon {
   width: 60%;
   height: 60%;
+}
+
+.fa:hover {
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  padding: 20px;
+  width: 56px;
+  background: #3b5998;
+  color: white !important;
+  border-radius: 50%;
+  text-decoration: none;
 }
