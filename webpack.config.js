@@ -68,6 +68,13 @@ const options = {
         ],
       },
       {
+        test: /\.(ttf|eot|woff|woff2)$/,
+        loader: 'file-loader',
+        options: {
+          name: 'public/fonts/[name].[ext]',
+        },
+      },
+      {
         test: /\.html$/,
         use: [
           {

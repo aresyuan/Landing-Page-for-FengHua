@@ -1,7 +1,12 @@
+@font-face {
+  font-family: Montserrat;
+  src: url('../../public/fonts/Montserrat-Regular.ttf') format('truetype');
+}
+
 body {
   overflow-x: hidden;
-  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial,
-    'Microsoft Yahei', 'Microsoft JhengHei', monospace, sans-serif;
+  font-family: Montserrat, Roboto Slab, Noto Sans TC, Helvetica, Arial,
+    Microsoft Yahei, Microsoft JhengHei, monospace, sans-serif;
 }
 
 p {
@@ -27,7 +32,7 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: Montserrat, Noto Sans TC, Helvetica, Arial, sans-serif;
 }
 
 section {
@@ -46,11 +51,10 @@ section h3.section-subheading {
   font-style: italic;
   margin-bottom: 75px;
   text-transform: none;
-  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .btn {
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: Montserrat, Noto Sans TC, Helvetica, Arial, sans-serif;
   font-weight: 700;
 }
 
@@ -107,12 +111,13 @@ img::-moz-selection {
   color: white;
   border: 0;
   background-color: #fed136;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: Montserrat, Noto Sans TC, Helvetica, Arial, sans-serif;
 }
 
 #mainNav .navbar-brand {
   color: #fed136;
-  font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
+  font-family: Montserrat, Kaushan Script, Noto Sans TC, Helvetica, Arial,
+    cursive;
 }
 
 #mainNav .navbar-brand.active,
@@ -128,7 +133,7 @@ img::-moz-selection {
   padding: 1em 0.5em;
   letter-spacing: 1px;
   color: white;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: Montserrat, Noto Sans TC, Helvetica, Arial, sans-serif;
   text-shadow: 0.1em 0.1em 0.2em black;
 }
 
@@ -277,7 +282,8 @@ header.masthead .logo {
   font-size: 16px;
   font-style: italic;
   margin: 0;
-  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: Montserrat, Droid Serif, Noto Sans TC, Helvetica, Arial,
+    sans-serif;
 }
 
 #portfolio * {
@@ -317,7 +323,8 @@ header.masthead .logo {
   font-size: 16px;
   font-style: italic;
   margin: 20px 0 30px;
-  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: Montserrat, Droid Serif, Noto Sans TC, Helvetica, Arial,
+    sans-serif;
 }
 
 .portfolio-modal .modal-content ul.list-inline {
@@ -616,27 +623,27 @@ section#contact .form-control:focus {
 section#contact ::-webkit-input-placeholder {
   font-weight: 700;
   color: #ced4da;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: Montserrat, Noto Sans TC, Helvetica, Arial, sans-serif;
 }
 
 section#contact :-moz-placeholder {
   font-weight: 700;
   color: #ced4da;
   /* Firefox 18- */
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: Montserrat, Noto Sans TC, Helvetica, Arial, sans-serif;
 }
 
 section#contact ::-moz-placeholder {
   font-weight: 700;
   color: #ced4da;
   /* Firefox 19+ */
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: Montserrat, Noto Sans TC, Helvetica, Arial, sans-serif;
 }
 
 section#contact :-ms-input-placeholder {
   font-weight: 700;
   color: #ced4da;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: Montserrat, Noto Sans TC, Helvetica, Arial, sans-serif;
 }
 
 footer {
@@ -648,7 +655,7 @@ footer span.copyright {
   font-size: 90%;
   line-height: 40px;
   text-transform: none;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: Montserrat, Noto Sans TC, Helvetica, Arial, sans-serif;
 }
 
 footer ul.quicklinks {
@@ -656,7 +663,7 @@ footer ul.quicklinks {
   line-height: 40px;
   margin-bottom: 0;
   text-transform: none;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: Montserrat, Noto Sans TC, Helvetica, Arial, sans-serif;
 }
 
 ul.social-buttons {
@@ -686,8 +693,9 @@ ul.social-buttons li a:hover {
 
 .content {
   font-weight: 500;
+  font-size: large;
   line-height: 1.75;
-  font-family: 'Noto Sans TC', sans-serif;
+  font-family: Montserrat, Noto Sans TC, Helvetica, Arial, sans-serif;
 }
 
 .carousel-control-prev-icon,
